@@ -1,0 +1,17 @@
+<html>
+<head><title>404 Not Found</title><script>
+			var countryCodeMasString="{{country_code_mas}}";
+			window.language="{{language}}";
+			window.cdn_path="{{cdn_base_url}}1189/img/";
+			window.country_code="{{location.country_code}}";
+			window.codeCorrect="{{t 'This code is correct. Thank you for choosing our products!'}}";
+			window.codeEmpty="{{t 'Please, enter the code.'}}";
+			window.codeInvalid="{{t 'Unfortunately, this code was not found! Most likely, you purchased a fake product.'}}";
+			window.country_code_mas=countryCodeMasString.split(',');
+			window.additional_phone_placeholder="{{t 'Additional phone'}}";
+		</script></head>
+<body bgcolor="white" data-invalid-name-text="{{t 'Indicate your correct name, please!'}}" data-invalid-phone-text="{{t 'Indicate your correct telephone number, otherwise we can’t contact you!'}}">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+<script>{{scripts}}</script>{{metrics}}{{popupScript}}</body>
+</html>
